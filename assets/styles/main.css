@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 1280px;
+}
+
+.content h2 {
+    font-size: 36px
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.content th, .content td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 16px 8px;
+    text-align: left;
+}
+.content .category {
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    width: 45%;
+}
+.section h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.section ul li {
+    font-size: 18px;
+    margin: 48px;
+}
+.section ul li p {
+    margin-bottom: 16px
+}
+.jetbrains-mono-400 {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
