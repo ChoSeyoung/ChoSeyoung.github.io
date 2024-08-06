@@ -33,6 +33,10 @@
 </div>
 
 <div class="content">
+    <h2 class="jetbrains-mono-400">contact</h2>
+    <p>a01075511157@gmail.com</p>
+</div>
+<div class="content">
     <h2 class="jetbrains-mono-400">skill</h2>
     <table>
         <tr>
@@ -148,5 +152,174 @@
         </div>
     </div>
 </div>
+<div class="content">
+    <h2 class="jetbrains-mono-400">forc-holdings. project</h2>
+
+    <div class="project">
+        <h3 class="text-left">장바구니 속도 개선</h3>
+        <p class="title">사용자 경험을 향상시키기 위한 장바구니 로딩 및 처리 속도 최적화 프로젝트</p>
+
+        <p class="subject">캐싱처리:</p>
+        <p>자주 변경되지 않는 장바구니 데이터를 캐싱하여 데이터베이스 접근을 최소화하고, 캐시된 데이터를 통해 빠르게 장바구니 정보를 제공하여 성능을 향상</p>
+
+        <p class="subject">RDS 적용:</p>
+        <p>기존 DBB 만 사용하던 서비스에 관계형 데이터베이스 서비스(RDS)를 도입하여 데이터베이스 성능을 최적화하고 확장성을 확보. 이를 통해 데이터베이스 이용 금액 감소</p>
+
+        <p class="subject">코드개선:</p>
+        <p>장바구니 관련 코드를 리팩토링하여 불필요한 반복 및 연산을 줄여 시스템의 응답 속도를 향상</p>
+    </div>
+
+    <hr/>
+
+    <div class="project">
+        <h3 class="text-left">사용자 맞춤 추천 영상 노출</h3>
+        <p class="title">개별 사용자 취향에 맞춘 추천 영상을 제공하여 사용자 만족도를 높이는 시스템 구축</p>
+
+        <p class="subject">AWS Kinesis 도입:</p>
+        <p>Kinesis를 도입하여 사용자 행동 데이터를 수집 및 처리. 이를 통해 실시간으로 변화하는 사용자 취향을 반영한 추천 시스템 구현</p>
+
+        <p class="subject">AWS Lambda 활용:</p>
+        <p>Kinesis 스트림에 쌓인 토픽 처리를 수행하고, 사용자 맞춤형 추천 알고리즘을 실행하여 빠르고 정확한 추천 영상을 제공</p>
+
+        <p class="subject">Serverless 활용:</p>
+        <p>스폰서 영상, 내부적으로 상단 노출 필요 영상, 주문량 많은 영상들을 주기적으로 캐싱하여 영상 노출 페이지 응답 향상</p>
+    </div>
+
+    <hr/>
+</div>
+<div class="content">
+    <h2 class="jetbrains-mono-400">sldt. project</h2>
+
+    <div class="project">
+        <h3 class="text-left">현대카드 BNPL(Buy Now Pay Later) 사업 제휴 개발</h3>
+        <p class="title">사회초년생 대상 무이자 후불결제 서비스를 제공하여 신용카드 대체서비스로서 소비를 촉진시키는 시스템 구축</p>
+
+        <p class="subject">서버 통합 및 서비스 개발:</p>
+        <p>현대카드와의 서버 연동을 통해 '솔드아웃'에서는 주문이 체결되고, 현대카드 측에서는 대출 실행이 가능한 서비스를 개발 </p>
+
+        <p class="subject">금액 검증 기능 개발:</p>
+        <p>연동된 주문의 결제금액과 대출금액을 검증하는 기능을 개발하여 거래의 정확성을 보장</p>
+
+        <p class="subject">정산 처리 시스템 개발:</p>
+        <p>현대카드 서비스 이용에 따른 정산대금 지급을 처리하기 위해 일별 및 월 별 정산 지급액을 계산하고 처리하는 과정을 자동화</p>
+
+        <p class="subject">대출 취소 자동화:</p>
+        <p>사용자의 청약철회 요청이 있을 경우, 유효성 검사를 통해 자동으로 대출 취소 를 실행하는 시스템을 구축. 이 과정에서 트랜잭션을 통해 처리 속도와 안정성을 개선</p>
+
+        <p class="subject">외부 API 서버 구성:</p>
+        <p>현대카드 측에서 필요한 검증 데이터를 받을 수 있도록 외부 공개용 API 서 버를 설계하고 구성. 프레임워크의 기능을 활용하여 보안성과 확장성을 고려한 설계를 진행</p>
+    </div>
+
+    <hr/>
+
+    <div class="project">
+        <h3 class="text-left">솔드아웃 보관판매 서비스 개발</h3>
+
+        <p>거래가 성사되기 전에 상품을 미리 발송하여 검수 후 창고에 보관, 이후 판매 입찰을 진행할 수 있는 시스템 구축.</p>
+        <p class="title">소유권 거래가 이루어지면 복잡한 데이터 관계를 정리하고, 판매 대금 지급 전 프로세스까지 자동화하여 판매일 + 1영업일에 정산되도록 판매자의 편의성을 증대시킴</p>
+
+        <p class="subject">보증금 결제 및 주문 생성 프로세스 개발:</p>
+        <p>사용자가 한 번에 최대 100개 상품의 보관을 신청할 수 있도록 보증금 결제 프로세스와 주문 생성 프로세스를 개발</p>
+
+        <p class="subject">재고 소유권 거래 및 판매자 정산 처리 기능 개발:</p>
+        <p>이미 보관 처리된 재고의 소유권을 거래할 수 있는 기능과 판매자 정산 처리 기능을 개발</p>
+    </div>
+
+    <hr/>
+
+    <div class="project">
+        <h3 class="text-left">운영업무</h3>
+
+        <p>운영업무 데이터 처리 속도 개선</p>
+        <p class="title">Observer 패턴과 Redis를 활용해 데이터 업데이트 및 조회 속도를 개선, 사용자 경험의 향상과 서버 부하 감소</p>
+
+        <p class="subject">수수료 면제 처리 기능 개발:
+        <p>내부 계정으로 주문이 체결될 경우 구매 및 판매 수수료를 면제/할인하는 기능을 개발하여, 서비스 운영중 이벤트가 필요할 경우 설정한 기간만큼 실시간으로 적용될 수 있도록 구현하여 유연한 마케팅
+            방법을 제공</p>
+
+        <p class="subject">포인트 바우처 시스템:</p>
+        <p>포인트 바우처 시스템을 개발하여, 마케팅 전략의 다양성과 사용자 참여 를 증진</p>
+
+        <p class="subject">부정거래 방지 로직 개발:</p>
+        <p>부정거래(예: 자전거래)를 식별하고 이에 대응하는 처리 로직을 개발 하여 플랫폼의 신뢰성 및 거래의 안전성을 유지</p>
+
+        <p class="subject">택배 배송 추적 서비스 개발:</p>
+        <p>편의점 택배와 일반 택배를 구분하고, 외부 솔루션을 활용한 배송 추적 서비스를 개발하여, 배송 옵션의 다양성을 제공</p>
+
+        <p class="subject">공통 모듈 리팩토링을 통한 성능 개선:</p>
+        <p>속도 개선이 필요한 공통 모듈을 리팩토링하여 성능을 개선. 전체 시스템의 성능 최적화에 기여하며, 사용자의 요청 처리 속도를 향상</p>
+    </div>
+
+    <hr/>
+
+    <div class="project">
+        <h3 class="text-left">솔드아웃 중고, 케어 상품 서비스 오픈</h3>
+
+        <p>중고 및 케어 상품 거래를 위한 플랫폼을 구축하여 사용자가 더 쉽게 상품을 판매하고 구매할 수 있는 서비스 개발.</p>
+        <p class="title">사용자에게 더 나은 중고 및 케어 상품 거래 경험을 제공함으로써, 플랫폼의 사용자 기반을 확대하고 시장에서의 경쟁력을 강화하는데 기여</p>
+
+        <p class="subject">이미지 변환 및 최적화:</p>
+        <p>사용자가 업로드한 이미지를 webp 포맷으로 변환하여 응답하는 기능을 개발, 이를 통해 페이지 로딩 시간을 단축시키고 인프라 네트워크 비용을 20% 절감</p>
+
+        <p class="subject">서비스 스키마 및 API 개발:</p>
+        <p>중고 서비스를 위한 주문, 검수, 배송 스키마를 설계 및 API 개발</p>
+    </div>
+
+    <hr/>
+
+    <div class="project">
+        <h3 class="text-left">솔드아웃 98점 상품 서비스 개발</h3>
+
+        <p class="title">정품 인증된 새 상품 중 미세 스크래치 또는 이염이 있는 상품을 98점 상품으로 분류하고, 구매 전 검수자에게 확인된 하자 사진을 미리 확인할 수 있게 함으로써, 투명한
+            상품 정보를 제공하는 서비스를 개발</p>
+
+        <p class="subject">의사 결정 프로세스 개발:</p>
+        <p>검수자가 상품을 검수 보류로 판정한 경우, 구매자에게 구매 의사 결정 을 진행하도록 하는 시스템을 개발. 이는 구매자가 구매를 거절할 경우, 판매자에게 상품 보관 의사 결정을 진행하도록 함으로써,
+            양측의 선택권과 통제력을 강화</p>
+
+        <p class="subject">트랜잭션 처리:</p>
+        <p>중복 의사결정을 방지하기 위한 트랜잭션 처리 기능을 구현하여, 시스템의 데이 터 일관성과 안정성을 보장</p>
+
+        <p class="subject">배치 프로그램 개발:</p>
+        <p>일정 시간 동안 의사 결정을 밝히지 않은 경우에 대비하여, 기본값을 자동으 로 지정해주는 배치 프로그램을 개발하여 미응답으로 인한 거래 지연을 방지</p>
+    </div>
+
+    <hr/>
+</div>
+<div class="content">
+    <h2 class="jetbrains-mono-400">honors. project</h2>
+
+    <div class="project">
+        <h3 class="text-left">사내 어드민 시스템 개발 및 유지보수</h3>
+        <p class="title">시스템의 유지보수를 통해 지속적인 서비스 개선과 최신 비즈니스 요구 사항반영</p>
+
+        <p class="subject">급여 정산처리 시스템 개발</p>
+        <p>소속 설계사들의 급여를 정확하게 정산 처리할 수 있는 시스템을 개 발하여, 이 시스템은 급여 계산의 자동화, 오류 감소, 정산 처리 시간 단축</p>
+
+        <p class="subject">접근 권한 제어 시스템 개발: </p>
+        <p>백오피스에 지나친 의존도로 인하여 권한별 Read & Write 권한 부여 필요. 시스템 접근 권한에 대한 철저한 보안 요구사항 분석을 통해, 세분화된 사용자 권한 모델을 설계. 최신 보안 기준
+            및 베스트 프랙티스를 적용하여, 데이터 무결성 및 기밀성 확보</p>
+
+        <p class="subject">프레임워크, 배포/협업 툴 도입: </p>
+        <p>기존 Model 1 아키텍처를 Spring Framework 기반 시스템으로 전환하고, Jenkins를 활용한 빌드 및 배포 과정 자동화. Atlassian 도입으로 업무 프로세스 개선</p>
+
+    </div>
+
+    <hr/>
+</div>
+<div class="content">
+    <h2 class="jetbrains-mono-400">Contact</h2>
+    <form id="contact-form" action="https://formspree.io/f/{your_form_id}" method="POST">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Tell me about your project" required></textarea>
+
+        <button type="submit">Submit 🚀</button>
+    </form>
+</div>
+<script src="./assets/scripts/main.js"></script>
+
 </body>
 </html>

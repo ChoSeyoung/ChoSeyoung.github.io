@@ -21,8 +21,16 @@ body {
     width: 1280px;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .content h2 {
     font-size: 36px
+}
+
+.content h3 {
+    font-size: 24px
 }
 
 .content p {
@@ -69,4 +77,63 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+.project p{
+    text-align: left;
+    font-size: 14px;
+}
+.project .subject {
+    text-align: left;
+    font-weight: bold;
+}
+
+.project .title {
+    margin-bottom: 36px;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 50%;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
